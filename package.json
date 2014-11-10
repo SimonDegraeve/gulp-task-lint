@@ -1,0 +1,45 @@
+{
+  "name": "gulp-task-lint",
+  "description": "Lint task for Gulp",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SimonDegraeve/gulp-task-lint",
+  "author": {
+    "name": "Simon Degraeve",
+    "email": "simon.degraeve@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SimonDegraeve/gulp-task-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimonDegraeve/gulp-task-lint/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/SimonDegraeve/gulp-task-lint/blob/master/licence"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">=1.4.x"
+  },
+  "scripts": {
+    "test": "echo \"no tests configured\""
+  },
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-cached": "^1.0.1",
+    "gulp-complexity": "^0.3.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jscs": "git://github.com/SimonDegraeve/gulp-jscs",
+    "gulp-jshint": "^1.9.0",
+    "gulp-task-update": "git://github.com/SimonDegraeve/gulp-task-update",
+    "jscs-stylish": "git://github.com/SimonDegraeve/jscs-stylish",
+    "jshint-stylish": "^1.0.0"
+  },
+  "devDependencies": {
+  },
+  "keywords": []
+}
