@@ -5,5 +5,5 @@ before_install:
   - npm install -g gulp
 install:
   - npm install
-after_install:
+after_script:
   - gulp update:check
