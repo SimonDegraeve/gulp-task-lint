@@ -35,11 +35,11 @@
     "gulp-if": "^1.2.5",
     "gulp-jscs": "git://github.com/SimonDegraeve/gulp-jscs",
     "gulp-jshint": "^1.9.0",
-    "gulp-task-update": "git://github.com/SimonDegraeve/gulp-task-update",
     "jscs-stylish": "git://github.com/SimonDegraeve/jscs-stylish",
     "jshint-stylish": "^1.0.0"
   },
   "devDependencies": {
+    "gulp-task-update": "git://github.com/SimonDegraeve/gulp-task-update"
   },
   "keywords": []
 }
