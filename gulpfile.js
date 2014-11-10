@@ -5,4 +5,4 @@ var gulp = require('gulp');
 require('gulp-task-update')();
 require('./index')('./lib/**/*.js', {shouldFail: true});
 
-gulp.task('default', ['lint']);
+gulp.task('test', ['lint']);
